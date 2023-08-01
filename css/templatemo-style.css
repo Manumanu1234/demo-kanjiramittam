@@ -700,12 +700,9 @@ https://templatemo.com/tm-516-known
       CONTACT             
   -----------------------------------------*/
 
-  #contact {
-    background: #3f51b5;
-  }
 
   #contact h2 {
-    color: #ffffff;
+    color: #29ca8e;
   }
 
   #contact .section-title {
@@ -715,7 +712,7 @@ https://templatemo.com/tm-516-known
   #contact h2 > small,
   #contact p,
   #contact a {
-    color: #f9f9f9;
+    color: #29ca8e;
   }
 
   #contact-form {
@@ -744,9 +741,9 @@ https://templatemo.com/tm-516-known
   }
 
   #contact-form input[type='submit']:hover {
-    background: transparent;
-    border-color: #ffffff;
-    color: #ffffff;
+    background:#29ca8e;
+    border-color: #29ca8e;
+    color: #000000;
   }
   
 
@@ -1024,4 +1021,11 @@ https://templatemo.com/tm-516-known
   }
   .zoom:hover {
     transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+  #contact{
+    background-image: url("../images/st-ig-2.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    max-width: 100%;
   }
